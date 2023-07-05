@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 2px solid #D8DEE4;
+    height: 60px;
+    width: 100%;
+    background-color: #f6f8fa;
+    position: fixed;
+}
+
+.btn {
+    padding: 3px 12px;
+    background-color: #1A7F37;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    width: 70px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #63A37A;
+}
+
+.auth,
+.links {
+    width: 50%;
+    height: 100%;
+}
